@@ -3,13 +3,141 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
+        <title>DevAmbrosia Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="picture of DevAmbrosia on a car">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                   <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                   <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                   <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                   <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Ambrosia Sikhosana</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">FullStack Dev</p>
+            <img src="MAS.jpg" alt="A picture of Ambrosia on a car" class="intro__img">
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I Do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>HTML</h3>
+                    <p>With expertise in HTML, I build the structural foundation of websites, ensuring that content is well-organized and accessible. I use semantic HTML to enhance SEO and improve user experience, making sure that every element is correctly placed and functions as intended.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>CSS</h3>
+                    <p>I specialize in using CSS to style and layout web pages, creating visually appealing and responsive designs. From typography and color schemes to complex layouts and animations, I use advanced CSS techniques to bring your website to life and ensure it looks great on all devices.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Web Design</h3>
+                    <p>As a web designer, I focus on creating intuitive and aesthetically pleasing designs that align with your brand and engage your audience. I blend creativity with functionality to deliver user-friendly interfaces and seamless navigation, ensuring that your visitors have a positive experience on your site.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
         
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I Am</h2>
+            <p class="section__subtitle section__subtitle--about">I'm Ambrosia Sikhosana, a passionate web designer and developer with a knack for bringing creative ideas to life through code. With a strong foundation in HTML, CSS, and web animation, I strive to build websites that not only look great but also perform seamlessly. I continuously learn and adapt to new technologies to ensure my projects are modern and cutting-edge.</p>
+            
+            <div class="about-me__body">
+                <p>I'm Ambrosia Sikhonsana, a dedicated web designer and developer with a passion for creating beautiful and functional websites. My journey in web development began with a fascination for how the web works, and I've since honed my skills in HTML, CSS, and web animation to bring ideas to life online. With a strong foundation in these technologies, I have developed a keen eye for design and an ability to create engaging, user-friendly websites. My expertise in web animation allows me to add dynamic elements that enhance user experience and make websites more interactive.</p>
+                <p>I believe in a user-centered approach to web design, ensuring that every project I undertake is tailored to the needs and preferences of the target audience. By staying updated with the latest trends and technologies, I strive to deliver modern, high-quality websites that stand out in the digital landscape. Committed to continuous learning and improvement, I regularly explore new tools and techniques in web development. This dedication to growth ensures that my clients benefit from innovative solutions and cutting-edge designs that keep their websites competitive.</p>
+            </div>
+            
+            <img src="MAS 2 (3).jpg" alt="Ambrosia sitting on a car" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">From elegant portfolios to interactive business sites, my portfolio showcases a diverse range of projects that highlight my skills in HTML, CSS, and web animations. Each project is a testament to my dedication to quality and attention to detail, ensuring that every client receives a product that exceeds their expectations. Explore my work to see the innovative and engaging designs I have brought to life.</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-danny-meneses-340146-943096.jpg" alt="Portfolio Item 01" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-divinetechygirl-1181675.jpg" alt="Portfolio Item 02" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-goumbik-669609.jpg" alt="Portfolio Item 03" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-joshsorenson-1714202.jpg" alt="Portfolio Item 04" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-luis-gomes-166706-546819.jpg" alt="Portfolio Item 05" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-markusspiske-1089438.jpg" alt="Portfolio Item 06" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-pixabay-207580.jpg" alt="Portfolio Item 07" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-sora-shimazaki-5926382.jpg" alt="Portfolio Item 08" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-wdnet-218717.jpg" alt="Portfolio Item 09" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 10 -->
+                <a href="#" class="portfolio__item">
+                    <img src="pexels-nickoloui-2473183.jpg" alt="Portfolio Item 10" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:ambrosiasikhosana@gmail.com" class="footer__link">ambrosiasikhosana@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://codepen.io"><i class="fab fa-codepen"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="http://dribbble.com"><i class="fab fa-dribbble"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </footer>
     </body>
 </html>
